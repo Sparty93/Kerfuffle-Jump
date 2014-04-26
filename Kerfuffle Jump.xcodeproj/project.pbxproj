@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E216AC190B3C8600F8C26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E216AB190B3C8600F8C26A /* Foundation.framework */; };
+		D4E216AE190B3C8600F8C26A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E216AD190B3C8600F8C26A /* CoreGraphics.framework */; };
+		D4E216B0190B3C8600F8C26A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E216AF190B3C8600F8C26A /* UIKit.framework */; };
+		D4E216B2190B3C8600F8C26A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E216B1190B3C8600F8C26A /* SpriteKit.framework */; };
+		D4E216B8190B3C8600F8C26A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E216B6190B3C8600F8C26A /* InfoPlist.strings */; };
+		D4E216BA190B3C8600F8C26A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E216B9190B3C8600F8C26A /* main.m */; };
+		D4E216BE190B3C8600F8C26A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E216BD190B3C8600F8C26A /* AppDelegate.m */; };
+		D4E216C1190B3C8600F8C26A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E216BF190B3C8600F8C26A /* Main_iPhone.storyboard */; };
+		D4E216C4190B3C8600F8C26A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E216C2190B3C8600F8C26A /* Main_iPad.storyboard */; };
+		D4E216C7190B3C8600F8C26A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E216C6190B3C8600F8C26A /* ViewController.m */; };
+		D4E216CA190B3C8600F8C26A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E216C9190B3C8600F8C26A /* MyScene.m */; };
+		D4E216CC190B3C8600F8C26A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E216CB190B3C8600F8C26A /* Spaceship.png */; };
+		D4E216CE190B3C8600F8C26A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E216CD190B3C8600F8C26A /* Images.xcassets */; };
+		D4E216D5190B3C8600F8C26A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E216D4190B3C8600F8C26A /* XCTest.framework */; };
+		D4E216D6190B3C8600F8C26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E216AB190B3C8600F8C26A /* Foundation.framework */; };
+		D4E216D7190B3C8600F8C26A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E216AF190B3C8600F8C26A /* UIKit.framework */; };
+		D4E216DF190B3C8600F8C26A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E216DD190B3C8600F8C26A /* InfoPlist.strings */; };
+		D4E216E1190B3C8600F8C26A /* Kerfuffle_JumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E216E0190B3C8600F8C26A /* Kerfuffle_JumpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4E216D8190B3C8600F8C26A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4E216A0190B3C8600F8C26A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E216A7190B3C8600F8C26A;
+			remoteInfo = "Kerfuffle Jump";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4E216A8190B3C8600F8C26A /* Kerfuffle Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kerfuffle Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E216AB190B3C8600F8C26A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4E216AD190B3C8600F8C26A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4E216AF190B3C8600F8C26A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4E216B1190B3C8600F8C26A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D4E216B5190B3C8600F8C26A /* Kerfuffle Jump-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kerfuffle Jump-Info.plist"; sourceTree = "<group>"; };
+		D4E216B7190B3C8600F8C26A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4E216B9190B3C8600F8C26A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4E216BB190B3C8600F8C26A /* Kerfuffle Jump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kerfuffle Jump-Prefix.pch"; sourceTree = "<group>"; };
+		D4E216BC190B3C8600F8C26A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4E216BD190B3C8600F8C26A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4E216C0190B3C8600F8C26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D4E216C3190B3C8600F8C26A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D4E216C5190B3C8600F8C26A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4E216C6190B3C8600F8C26A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4E216C8190B3C8600F8C26A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		D4E216C9190B3C8600F8C26A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		D4E216CB190B3C8600F8C26A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		D4E216CD190B3C8600F8C26A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4E216D3190B3C8600F8C26A /* Kerfuffle JumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kerfuffle JumpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E216D4190B3C8600F8C26A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4E216DC190B3C8600F8C26A /* Kerfuffle JumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kerfuffle JumpTests-Info.plist"; sourceTree = "<group>"; };
+		D4E216DE190B3C8600F8C26A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4E216E0190B3C8600F8C26A /* Kerfuffle_JumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kerfuffle_JumpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E216A5190B3C8600F8C26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E216AE190B3C8600F8C26A /* CoreGraphics.framework in Frameworks */,
+				D4E216B0190B3C8600F8C26A /* UIKit.framework in Frameworks */,
+				D4E216B2190B3C8600F8C26A /* SpriteKit.framework in Frameworks */,
+				D4E216AC190B3C8600F8C26A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E216D0190B3C8600F8C26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E216D5190B3C8600F8C26A /* XCTest.framework in Frameworks */,
+				D4E216D7190B3C8600F8C26A /* UIKit.framework in Frameworks */,
+				D4E216D6190B3C8600F8C26A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E2169F190B3C8600F8C26A = {
+			isa = PBXGroup;
+			children = (
+				D4E216B3190B3C8600F8C26A /* Kerfuffle Jump */,
+				D4E216DA190B3C8600F8C26A /* Kerfuffle JumpTests */,
+				D4E216AA190B3C8600F8C26A /* Frameworks */,
+				D4E216A9190B3C8600F8C26A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E216A9190B3C8600F8C26A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E216A8190B3C8600F8C26A /* Kerfuffle Jump.app */,
+				D4E216D3190B3C8600F8C26A /* Kerfuffle JumpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E216AA190B3C8600F8C26A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4E216AB190B3C8600F8C26A /* Foundation.framework */,
+				D4E216AD190B3C8600F8C26A /* CoreGraphics.framework */,
+				D4E216AF190B3C8600F8C26A /* UIKit.framework */,
+				D4E216B1190B3C8600F8C26A /* SpriteKit.framework */,
+				D4E216D4190B3C8600F8C26A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E216B3190B3C8600F8C26A /* Kerfuffle Jump */ = {
+			isa = PBXGroup;
+			children = (
+				D4E216BC190B3C8600F8C26A /* AppDelegate.h */,
+				D4E216BD190B3C8600F8C26A /* AppDelegate.m */,
+				D4E216BF190B3C8600F8C26A /* Main_iPhone.storyboard */,
+				D4E216C2190B3C8600F8C26A /* Main_iPad.storyboard */,
+				D4E216C5190B3C8600F8C26A /* ViewController.h */,
+				D4E216C6190B3C8600F8C26A /* ViewController.m */,
+				D4E216C8190B3C8600F8C26A /* MyScene.h */,
+				D4E216C9190B3C8600F8C26A /* MyScene.m */,
+				D4E216CB190B3C8600F8C26A /* Spaceship.png */,
+				D4E216CD190B3C8600F8C26A /* Images.xcassets */,
+				D4E216B4190B3C8600F8C26A /* Supporting Files */,
+			);
+			path = "Kerfuffle Jump";
+			sourceTree = "<group>";
+		};
+		D4E216B4190B3C8600F8C26A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4E216B5190B3C8600F8C26A /* Kerfuffle Jump-Info.plist */,
+				D4E216B6190B3C8600F8C26A /* InfoPlist.strings */,
+				D4E216B9190B3C8600F8C26A /* main.m */,
+				D4E216BB190B3C8600F8C26A /* Kerfuffle Jump-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4E216DA190B3C8600F8C26A /* Kerfuffle JumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4E216E0190B3C8600F8C26A /* Kerfuffle_JumpTests.m */,
+				D4E216DB190B3C8600F8C26A /* Supporting Files */,
+			);
+			path = "Kerfuffle JumpTests";
+			sourceTree = "<group>";
+		};
+		D4E216DB190B3C8600F8C26A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4E216DC190B3C8600F8C26A /* Kerfuffle JumpTests-Info.plist */,
+				D4E216DD190B3C8600F8C26A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E216A7190B3C8600F8C26A /* Kerfuffle Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E216E4190B3C8600F8C26A /* Build configuration list for PBXNativeTarget "Kerfuffle Jump" */;
+			buildPhases = (
+				D4E216A4190B3C8600F8C26A /* Sources */,
+				D4E216A5190B3C8600F8C26A /* Frameworks */,
+				D4E216A6190B3C8600F8C26A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kerfuffle Jump";
+			productName = "Kerfuffle Jump";
+			productReference = D4E216A8190B3C8600F8C26A /* Kerfuffle Jump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4E216D2190B3C8600F8C26A /* Kerfuffle JumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E216E7190B3C8600F8C26A /* Build configuration list for PBXNativeTarget "Kerfuffle JumpTests" */;
+			buildPhases = (
+				D4E216CF190B3C8600F8C26A /* Sources */,
+				D4E216D0190B3C8600F8C26A /* Frameworks */,
+				D4E216D1190B3C8600F8C26A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E216D9190B3C8600F8C26A /* PBXTargetDependency */,
+			);
+			name = "Kerfuffle JumpTests";
+			productName = "Kerfuffle JumpTests";
+			productReference = D4E216D3190B3C8600F8C26A /* Kerfuffle JumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E216A0190B3C8600F8C26A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Robert Marchiori";
+				TargetAttributes = {
+					D4E216D2190B3C8600F8C26A = {
+						TestTargetID = D4E216A7190B3C8600F8C26A;
+					};
+				};
+			};
+			buildConfigurationList = D4E216A3190B3C8600F8C26A /* Build configuration list for PBXProject "Kerfuffle Jump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4E2169F190B3C8600F8C26A;
+			productRefGroup = D4E216A9190B3C8600F8C26A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E216A7190B3C8600F8C26A /* Kerfuffle Jump */,
+				D4E216D2190B3C8600F8C26A /* Kerfuffle JumpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E216A6190B3C8600F8C26A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E216CC190B3C8600F8C26A /* Spaceship.png in Resources */,
+				D4E216CE190B3C8600F8C26A /* Images.xcassets in Resources */,
+				D4E216C4190B3C8600F8C26A /* Main_iPad.storyboard in Resources */,
+				D4E216C1190B3C8600F8C26A /* Main_iPhone.storyboard in Resources */,
+				D4E216B8190B3C8600F8C26A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E216D1190B3C8600F8C26A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E216DF190B3C8600F8C26A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E216A4190B3C8600F8C26A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E216CA190B3C8600F8C26A /* MyScene.m in Sources */,
+				D4E216C7190B3C8600F8C26A /* ViewController.m in Sources */,
+				D4E216BE190B3C8600F8C26A /* AppDelegate.m in Sources */,
+				D4E216BA190B3C8600F8C26A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E216CF190B3C8600F8C26A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E216E1190B3C8600F8C26A /* Kerfuffle_JumpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4E216D9190B3C8600F8C26A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E216A7190B3C8600F8C26A /* Kerfuffle Jump */;
+			targetProxy = D4E216D8190B3C8600F8C26A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4E216B6190B3C8600F8C26A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E216B7190B3C8600F8C26A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4E216BF190B3C8600F8C26A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E216C0190B3C8600F8C26A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E216C2190B3C8600F8C26A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E216C3190B3C8600F8C26A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E216DD190B3C8600F8C26A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E216DE190B3C8600F8C26A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4E216E2190B3C8600F8C26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E216E3190B3C8600F8C26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E216E5190B3C8600F8C26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kerfuffle Jump/Kerfuffle Jump-Prefix.pch";
+				INFOPLIST_FILE = "Kerfuffle Jump/Kerfuffle Jump-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4E216E6190B3C8600F8C26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kerfuffle Jump/Kerfuffle Jump-Prefix.pch";
+				INFOPLIST_FILE = "Kerfuffle Jump/Kerfuffle Jump-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4E216E8190B3C8600F8C26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kerfuffle Jump.app/Kerfuffle Jump";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kerfuffle Jump/Kerfuffle Jump-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kerfuffle JumpTests/Kerfuffle JumpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D4E216E9190B3C8600F8C26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kerfuffle Jump.app/Kerfuffle Jump";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kerfuffle Jump/Kerfuffle Jump-Prefix.pch";
+				INFOPLIST_FILE = "Kerfuffle JumpTests/Kerfuffle JumpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E216A3190B3C8600F8C26A /* Build configuration list for PBXProject "Kerfuffle Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E216E2190B3C8600F8C26A /* Debug */,
+				D4E216E3190B3C8600F8C26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E216E4190B3C8600F8C26A /* Build configuration list for PBXNativeTarget "Kerfuffle Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E216E5190B3C8600F8C26A /* Debug */,
+				D4E216E6190B3C8600F8C26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4E216E7190B3C8600F8C26A /* Build configuration list for PBXNativeTarget "Kerfuffle JumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E216E8190B3C8600F8C26A /* Debug */,
+				D4E216E9190B3C8600F8C26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4E216A0190B3C8600F8C26A /* Project object */;
+}
